@@ -1,5 +1,14 @@
+
+import Card from './Card/Card';
 export default function Home(){
     return(
-        <h1>PTAC 2 - PROJETO FINAL</h1>
+        <div>
+          
+          <h1>PTAC 2 - PROJETO FINAL</h1>
+
+          <Card video = {"video"}/>
+        </div>
+       
+
      );
 }
