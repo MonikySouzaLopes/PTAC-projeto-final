@@ -1,5 +1,5 @@
 
-import Card from './Card/Card';
+import Card from './Componentes/Card';
 export default function Home(){
     return(
         <div>
