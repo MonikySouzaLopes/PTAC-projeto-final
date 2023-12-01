@@ -31,8 +31,7 @@ export default function Cadastrar() {
         setLink("");
         setDataLançamento("");
         console.log(id)
-    }}
-
+    }
     return (
       <div>
           <div> 
@@ -66,3 +65,8 @@ export default function Cadastrar() {
      
       </div>
     );
+  
+  
+  }
+
+    
