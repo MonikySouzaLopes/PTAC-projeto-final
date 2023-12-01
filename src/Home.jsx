@@ -6,7 +6,7 @@ export default function Home(){
           
           <h1>PTAC 2 - PROJETO FINAL</h1>
 
-          <Card video = {"video"}/>
+          <Card video = {Cadastrar}/>
         </div>
        
 
