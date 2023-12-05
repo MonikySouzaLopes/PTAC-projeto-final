@@ -32,6 +32,12 @@ export default function Cadastrar() {
         setDataLançamento("");
         console.log(id)
     }
+
+
+    const remover = (id) => {
+      const auxLista = lista.filter((item) => item.id !== id);
+      setLista(auxLista);
+    }
     return (
       <div>
           <div> 
@@ -62,7 +68,15 @@ export default function Cadastrar() {
           </form>   
           </div>    
           
-     
+          {lista.map((video)=>
+            <div key= {video.id}>
+                <p><strong>nome:</strong></p>
+               <p>{video.NomeDaMusica}</p> 
+                <br />
+                <br />
+                <button onClick={() => remover(video.id)}>Remover</button>
+            </div>
+            )}  
       </div>
     );
   

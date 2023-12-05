@@ -1,19 +1,16 @@
-
-export default function Card({video}){
+import {Link} from "react-router-dom";
+export default function Card({lista}){
 
     return(
-        lista.map((Cadastrar)=>
-            <div key= {Cadastrar.id}>
-                <Link to={`/Detalhe/${Cadastrar.id}`}>
-                <p><strong>Nome da música:</strong>{Cadastrar.NomeDaMusica}</p>
+        lista.map((video)=>
+            <div key= {video.id}>
+                <Link to={`/Detalhe/${video.id}`}>
+                <p><strong>Nome da música:</strong>{video.NomeDaMusica}</p>
                 </Link>
-              <iframe>
-                src={
-                    'https://www.youtube.com/embed' + Cadastrar.URL.slice(17)
-                }
-              </iframe>
                 
-               
+               <iframe width="718" height="404" src={
+                    'https://www.youtube.com/embed/' + video.Link.slice(17)
+                } title="Nesk Only &amp; 2metro - Limitado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             )
     );
