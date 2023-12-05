@@ -39,28 +39,34 @@ export default function Cadastrar() {
       <div>
           <div> 
           <form onSubmit={salvar}>
+
               <p><strong>Nome da música:</strong></p>
               &emsp;
           <input value={NomeDaMusica} type="text"
           onChange={(e)=>{ setNomeDaMusica(e.target.value)}}/>
+
            <p><strong>Letra:</strong></p>
         &emsp;
           <input value={Letra} type="text"
           onChange={(e)=>{ setLetra(e.target.value)}}/>
+
           <p><strong>Artista:</strong></p>
          &emsp;
           <input value={Artista} type="text"
           onChange={(e)=>{ setArtista(e.target.value)}}/>
+
           <p><strong>URL do vídeo:</strong></p>
           &emsp;
           <input value={Link} type="text"
           onChange={(e)=>{ setLink(e.target.value)}}/>
           &emsp;
+
           <p><strong>Data de lançamento:</strong></p>
           &emsp;
           <input value={DataLançamento} type="text"
           onChange={(e)=>{ setDataLançamento(e.target.value)}}/>
           &emsp;
+          
           <button className="btn btn-dark">ADD</button>
           </form>   
           </div>    
