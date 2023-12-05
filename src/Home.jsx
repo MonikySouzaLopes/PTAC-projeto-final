@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import "./style.css";
 import Card from './Componentes/Card';
 export default function Home(){
 
@@ -8,7 +8,7 @@ export default function Home(){
     return(
         <div>
           
-          <h1>PTAC 2 - PROJETO FINAL</h1>
+          <h1>TRAP gospel</h1>
 
           <Card lista = {lista}/>
         </div>
