@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Header from "../Componentes/Header";
 
 
 
@@ -37,6 +38,7 @@ export default function Cadastrar() {
     
     return (
       <div>
+        <Header/>
           <div> 
           <form onSubmit={salvar}>
 

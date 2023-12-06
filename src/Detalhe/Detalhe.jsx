@@ -1,8 +1,19 @@
-import {Link} from "react-router-dom";
-export default function Detalhe({lista}){
+import {Link, useParams} from "react-router-dom";
+export default function Detalhe(){
+    
+    const {id} = useParams();
+    const lista = JSON.parse(localStorage.getItem("Lista"));
+    
 
+   const video =  lista.filter((objeto) => {
+        if(objeto.id == id){
+            return objeto;
+        }
+        return null
+    })
     return(
-        lista.map((video)=>
+
+        video.map((video)=>
             <div key= {video.id}>
                 
                 <p><strong>Nome da música:</strong>{video.NomeDaMusica}</p>
