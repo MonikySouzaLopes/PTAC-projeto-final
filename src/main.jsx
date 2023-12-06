@@ -5,12 +5,14 @@ import Home from './Home'
 import Cadastrar from './Cadastro/Cadastrar'
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/Cadastrar" element={<Cadastrar/>}></Route>
+    
        
       </Routes>
     </BrowserRouter>
