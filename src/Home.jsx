@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./style.css";
 import Card from './Componentes/Card';
 import Header from "./Componentes/Header";
+import Footer from './Componentes/Footer';
 
 export default function Home(){
 
@@ -14,6 +15,7 @@ export default function Home(){
           <h1>TRAP gospel</h1>
 
           <Card lista = {lista}/>
+          <Footer/>
         </div>
        
 
