@@ -13,8 +13,10 @@ export default function Home(){
         <div>
           <Header/>
           <h1>TRAP gospel</h1>
+<div class="container">
+<Card lista = {lista}/>
 
-          <Card lista = {lista}/>
+</div>
           <Footer/>
         </div>
        
