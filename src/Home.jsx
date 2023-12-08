@@ -12,7 +12,7 @@ export default function Home(){
     return(
         <div>
           <Header/>
-          <h1>TRAP gospel</h1>
+          <h1 class="titulo">TRAP gospel</h1>
 <div class="container">
 <Card lista = {lista}/>
 
