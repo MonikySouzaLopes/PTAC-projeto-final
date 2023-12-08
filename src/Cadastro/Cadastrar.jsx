@@ -19,9 +19,9 @@ export default function Cadastrar() {
   }, [lista]);
 
   const navigate = useNavigate();
-    const salvar =(e) =>{
+    const salvar = async (e) =>{
         e.preventDefault();
-        setLista([...lista, {
+       await setLista([...lista, {
                 NomeDaMusica: NomeDaMusica, Letra: Letra, Artista: Artista, 
                 Link: Link, DataLançamento: DataLançamento,
                 id: id
