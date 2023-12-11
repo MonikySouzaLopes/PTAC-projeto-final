@@ -1,7 +1,7 @@
 import Card from '../Componentes/Card';
 import Header from '../Componentes/Header';
 import Footer from '../Componentes/Footer';
-import "../Destaque/styleDestaque.css";
+import "../style.css";
 export default function Destaque(){
     const lista = JSON.parse(localStorage.getItem("Lista")).slice(-3);
     const listaDestaque = lista.slice(-3)
