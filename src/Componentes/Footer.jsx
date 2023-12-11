@@ -5,7 +5,7 @@ export default function Footer(){
             <br />
             <br />
             <footer><br />
-                Criado por: Moniky Lopes Info 4B :)
+                Aqui estão seus Traps favoritos S2 Criado por: Moniky Lopes Info 4B :) Jesus te ama!!
                 <br />
                 <br />
                 
