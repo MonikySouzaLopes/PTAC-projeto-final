@@ -1,5 +1,6 @@
 import {Link, useParams} from "react-router-dom";
-import Header from '../Componentes/Header'
+import Header from '../Componentes/Header';
+import Footer from "../Componentes/Footer";
 export default function Detalhe(){
     
     const {id} = useParams();
@@ -18,14 +19,15 @@ export default function Detalhe(){
             <div key= {video.id}>
                       <Header/>
                       <h1>Detalhes do TRAP</h1>
-                <p><strong>Nome da música:</strong>{video.NomeDaMusica}</p>
+                      &emsp;
+                <p><strong>Nome da música:&emsp;</strong>{video.NomeDaMusica}</p>
                 <iframe width="300" height="200" src={
                     'https://www.youtube.com/embed/' + video.Link.slice(17)
                 } frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p><strong>Letra:</strong>{video.Letra}</p>
-                <p><strong>Artista:</strong>{video.Artista}</p>
-                <p><strong>Data de Lançamento:</strong>{video.DataLançamento}</p>
-               
+                <p><strong>Letra:&emsp;</strong>{video.Letra}</p>
+                <p><strong>Artista:&emsp;</strong>{video.Artista}</p>
+                <p><strong>Data de Lançamento:&emsp;</strong>{video.DataLançamento}</p>
+               <Footer/>
             </div>
             )
     );
