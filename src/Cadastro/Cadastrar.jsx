@@ -40,7 +40,7 @@ export default function Cadastrar() {
     }
 
     return (
-      <div class="centralizar">
+      <div>
         <Header/>
         <h2>Cadastrar TRAP</h2>
           <div class="cadastro"> 

@@ -4,7 +4,7 @@ import Footer from '../Componentes/Footer';
 import "../Destaque/styleDestaque.css";
 export default function Destaque(){
     const lista = JSON.parse(localStorage.getItem("Lista")).slice(-3);
-    const listaDestaque = lista.slice(-4)
+    const listaDestaque = lista.slice(-3)
     return(
         <div>
             <Header/>
