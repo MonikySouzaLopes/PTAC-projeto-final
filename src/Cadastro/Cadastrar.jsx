@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Header from "../Componentes/Header";
+import Footer from "../Componentes/Footer";
 import "../style.css";
 
 
@@ -39,9 +40,9 @@ export default function Cadastrar() {
     }
 
     return (
-      <div>
+      <div class="centralizar">
         <Header/>
-        <h1>Cadastrar TRAP</h1>
+        <h2>Cadastrar TRAP</h2>
           <div class="cadastro"> 
           
           <form onSubmit={salvar}>
@@ -76,8 +77,9 @@ export default function Cadastrar() {
           <button className="btn btn-dark">ADD</button>
           </form>   
           </div>    
-          
-          
+          <br />
+          <br />
+          <Footer/>
       </div>
 
       

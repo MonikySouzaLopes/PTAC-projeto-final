@@ -1,8 +1,10 @@
 body{
- background-image: url("image/Wallpaper Jesus Saves Bro.jpg");
+ background-image: url("image/fundo1.jpg");
  background-repeat: no-repeat;
  background-position: center center;
  background-size: cover;
+ object-fit: cover;
+ color:rgb(255, 255, 255);
 
 }
 
@@ -15,7 +17,28 @@ body{
 
 .titulo {
     text-align: center;
-    font-family: bazooka;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 450%;
+    
    
+}
+
+.tituloCadastro {
+    
+    font-family: Brush Script MT, Brush Script Std, cursive;
+   
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(166, 166, 166);
+  color: rgb(255, 255, 255);
+  font-size: large;
+
+}
+
+h2{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 300%;
 }
 

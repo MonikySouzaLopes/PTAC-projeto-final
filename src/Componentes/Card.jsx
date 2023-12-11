@@ -16,7 +16,7 @@ export default function Card({lista}){
                 } frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
            
            <Link to={`/Detalhe/${video.id}`}>
-           <button class="btn btn-outline-dark">Ver mais!</button>
+           <button class="btn btn-outline-light">Ver mais!</button>
                 </Link>
            </div>
                 

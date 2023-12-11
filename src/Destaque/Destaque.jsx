@@ -1,5 +1,6 @@
 import Card from '../Componentes/Card';
 import Header from '../Componentes/Header';
+import Footer from '../Componentes/Footer';
 import "../Destaque/styleDestaque.css";
 export default function Destaque(){
     const lista = JSON.parse(localStorage.getItem("Lista")).slice(-3);
@@ -11,7 +12,13 @@ export default function Destaque(){
            <div class="destaqueContainer">
           
           <Card lista = {listaDestaque}/>
-      </div>  
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> 
+      <Footer/> 
         </div>
        
     ) 

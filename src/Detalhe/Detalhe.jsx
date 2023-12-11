@@ -1,5 +1,6 @@
 import {Link, useParams} from "react-router-dom";
 import Header from '../Componentes/Header';
+import "../style.css";
 import Footer from "../Componentes/Footer";
 export default function Detalhe(){
     
